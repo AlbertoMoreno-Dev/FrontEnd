@@ -1,0 +1,166 @@
+<!DOCTYPE html>  <!-------Tipo de Formato------->
+<html lang="en"> <!-------Lenguaje------->
+<head>       <!-------Es lo primero que le el codigo------->
+    <meta charset="UTF 8">      <!-------Charset tipo de caracteres ------->
+    <meta http-equiv= “X-UA-Compatible” content= “IE=edge”>  <!-------Compatibilidad con el navegador ------->
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > <!-------Vista general y Escala de zoom ------->
+    <title>SC Dashboard</title> <!-------Nombre de nuestra Pagina------->
+    <style></style> <!-------Estilos del archivo HTML------->
+    <link rel="stylesheet" href=""> <!-------Importar Ligas------->
+    <script></script> <!-------Conexion Java Sript------->
+
+</head>
+<style>
+   header {
+            background-color: rgb(221, 221, 221);
+            padding: 30px;
+            text-align: left;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+        }
+        nav {
+            float: center;
+            width: 100%;
+            height: 100px;
+            
+            background: rgb(204, 204, 204);
+            padding: 10px;
+        }
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+body{
+	background-color: #d4d4d4;
+	
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #ff7eb4;
+	border-bottom: solid 5px #aa0047;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #e7c5e4;
+	color: white;
+}
+
+
+
+</style>
+<header>
+    <img src="https://raw.githubusercontent.com/AlbertoMoreno-Dev/FrontEnd/main/HTML/Html/Pasteleria/Sweet%20Cake1.png" alt="Perritos lindos" width="150px" height="150px">
+   
+</header>
+<body>
+    
+<ul>
+<h2>
+    <li><a href="./index.html">Home</a></li>                   <!----Menu------->
+    <li><a href="./chef.html">Inventarios</a></li>
+    <li><a href="./pedidos.html">Pedidos</a></li>
+</h2>         
+</ul>
+<h1 align="center">Inventario</h1>
+
+    <div id="main-container">
+
+		<table>
+			<thead>
+               <h2>Adornos</h2>
+				<tr>
+					<th>Adornos</th><th>Usados</th><th>Disponibles</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>Fresas</td><td>10 Kg</td><td>5 Kg</td>
+			</tr>
+			<tr>
+				<td>Moras</td><td>13 Kg</td><td>3 Kg</td>
+			</tr>
+			<tr>
+				<td>Chocolate</td><td>5 KG</td><td>6 Kg</td>
+			</tr>
+			<tr>
+				<td>Merengue D Animados</td><td>8 Kg</td><td>4 Kg</td>
+			</tr>
+		</table>
+	</div>
+
+    <div id="main-container">
+
+		<table>
+			<thead>
+               <h2>Sabores</h2>
+				<tr>
+					<th>Sabores</th><th>Usados</th><th>Disponibles</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>Fresa</td><td>6 L</td><td>3 L</td>
+			</tr>
+			<tr>
+				<td>Moras</td><td>3 L</td><td>4 L</td>
+			</tr>
+			<tr>
+				<td>Chocolate</td><td>6 L</td><td>6 L</td>
+			</tr>
+			<tr>
+				<td>Vainilla</td><td>4 L</td><td>3 L</td>
+			</tr>
+		</table>
+	</div>
+<footer>
+    <p>Sweet Cake 2022</p>
+</footer>
+</body>

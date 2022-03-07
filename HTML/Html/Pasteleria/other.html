@@ -1,0 +1,121 @@
+<!DOCTYPE html>  <!-------Tipo de Formato------->
+<html lang="en"> <!-------Lenguaje------->
+<head>       <!-------Es lo primero que le el codigo------->
+    <meta charset="UTF 8">      <!-------Charset tipo de caracteres ------->
+    <meta http-equiv= “X-UA-Compatible” content= “IE=edge”>  <!-------Compatibilidad con el navegador ------->
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > <!-------Vista general y Escala de zoom ------->
+    <title>Sweet Cake</title> <!-------Nombre de nuestra Pagina------->
+    <style></style> <!-------Estilos del archivo HTML------->
+    <link rel="stylesheet" href=""> <!-------Importar Ligas------->
+    <script></script> <!-------Conexion Java Sript------->
+
+</head>
+<style>
+    header {
+            background-color: rgb(221, 221, 221);
+            padding: 30px;
+            text-align: left;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+        }
+        nav {
+            float: center;
+            width: 100%;
+            height: 100px;
+            
+            background: rgb(204, 204, 204);
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+<header>
+    <img src="https://raw.githubusercontent.com/AlbertoMoreno-Dev/FrontEnd/main/HTML/Html/Pasteleria/Sweet%20Cake1.png" alt="Perritos lindos" width="150px" height="150px">
+   
+</header>
+<body>
+    
+<nav>
+    <ul>
+<h2>
+    <li><a href="#">Home</a></li>                   <!----Menu------->
+    <li><a href="#">Crea tu pastel</a></li>
+    <li><a href="#">Sabores</a></li>
+    <li><a href="#">Adornos</a></li>  
+</h2>         
+</ul>
+</nav>
+<h1 align="center">Crea tu pastel </h1>
+<h2 align="center">
+    <p>Inventa tu pastel a tu antojo</p> 
+</h2>
+<form action="/accion.js" id="form1" method="post">
+<br><br>    <h2>Datos Personales</h2>
+<label for="Name">Name</label><br>
+<input type="text" id="name" name="name"><br><br>
+
+<label for="last name">Last name</label><br>
+<input type="text" id="last_name" name="last_name"><br><br>
+
+<label for="correo">Email</label><br>
+<input type="email" id="correo" name="correo1"><br><br>
+
+<label for="phone">Phone number</label><br>
+<input type="tel" id="phone" name="phone" maxlength="10"><br><br>
+
+<h2>Sabores</h2><br>
+<input type="checkbox" id="topping1" name="topping1" value="Fresa">
+<label for="topping1">Fresa</label><br>
+<input type="checkbox" id="topping2" name="topping2" value="Vainilla">
+<label for="topping2">Vainilla</label><br>
+<input type="checkbox" id="topping3" name="topping3" value="Chocolate">
+<label for="topping3">Chocolate</label><br>
+<input type="checkbox" id="topping3" name="topping3" value="Moras">
+<label for="topping3">Moras</label><br><br>
+
+<h2>Select</h2>
+<label for="Adornos">Seleccione un adornos </label>
+<select id="Adornos" name="Adornos">
+    <option value="Fresas">Fresas</option>
+    <option value="Chocolate">Chocolate</option>
+    <option value="Moras">Moras</option>
+    <option value="Dibujos animados">Dibujos animados</option>
+</select>
+<br><br>
+<h2>Input de botón</h2>
+<input type="reset"value="reset"><br><br>
+<input type="submit" value="Submit"><br>
+<br><br>
+</form>
+<footer>
+    <p>Sweet Cake 2022</p>
+</footer>
+</body>
